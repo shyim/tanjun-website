@@ -4,7 +4,7 @@
 [![Vite](https://img.shields.io/badge/Vite-5.4-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
 [![TailwindCSS](https://img.shields.io/badge/TailwindCSS-3.4-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
 
-Welcome to the Tanjun Website repository! This project serves as the official website for Tanjun, a powerful Dockerized Deployment Tool designed for simplicity and efficiency.
+Welcome to the Tanjun Website repository! This project serves as the official website for [Tanjun](https://github.com/shyim/tanjun), a powerful Dockerized Deployment Tool designed for simplicity and efficiency.
 
 ## 🌟 Features
 
@@ -37,7 +37,7 @@ Welcome to the Tanjun Website repository! This project serves as the official we
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/mnkyarts/tanjun-website.git
+   git clone https://github.com/shyim/tanjun-website.git
    cd tanjun-website
    ```
 
@@ -114,4 +114,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-<p align="center">Made with ❤️ by the Tanjun Team</p>
+<p align="center">Made with ❤️ by [Liam Robinson](https://github.com/MnkyArts)</p>
