@@ -44,6 +44,7 @@
           <div class="flex flex-col items-center mb-4">
             <img
               :src="step.icon"
+              draggable="false"
               class="w-64 h-64 text-white -mt-24 -mb-12"
               :alt="step.title"
             />
