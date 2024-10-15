@@ -10,7 +10,7 @@
       <div class="flex flex-col items-center gap-3">
         <StarField />
         <h2
-          class="text-center text-base/7 w-fit px-3 rounded-md border border-accent/40 text-accent"
+          class="text-center text-base/7 w-fit px-3 rounded-md border border-white/40 text-white"
           v-motion
           :initial="{ opacity: 0, y: 50 }"
           :visible="{ opacity: 1, y: 0, scale: 1 }"

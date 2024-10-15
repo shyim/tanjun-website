@@ -27,7 +27,7 @@
     >
       <div class="relative z-10">
         <h1
-          class="mx-auto max-w-4xl font-display text-4xl text-slate-900 sm:text-6xl xl:text-7xl"
+          class="mx-auto max-w-4xl font-medium text-4xl text-slate-900 sm:text-6xl xl:text-7xl"
           v-motion
           :initial="{ opacity: 0, y: 50 }"
           :enter="{ opacity: 1, y: 0, scale: 1 }"
@@ -38,7 +38,7 @@
           <span class="md:block">
             application
             <span
-              class="bg-clip-text font-medium text-transparent bg-gradient-to-r from-[#4240B2] to-[#ca09db]"
+              class="bg-clip-text font-semibold text-transparent bg-gradient-to-r from-[#4240B2] to-[#ca09db]"
             >
               Deployments</span
             >

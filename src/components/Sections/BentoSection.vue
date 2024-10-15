@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-gray-50 pt-20 pb-96 sm:py-24">
+  <div class="bg-gray-50 pt-20 pb-96 sm:py-24 overflow-hidden">
     <div class="mx-auto max-w-2xl px-6 lg:max-w-7xl lg:px-8">
       <div class="flex flex-col items-center gap-3">
         <h2
@@ -209,7 +209,7 @@
                       .tanjun.yml
                     </div>
                     <div class="border-r border-gray-600/10 px-4 py-2">
-                      App.jsx
+                      App.vue
                     </div>
                   </div>
                 </div>
