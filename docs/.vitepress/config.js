@@ -4,6 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: 'Tanjun Docs',
   description: 'Tanjun Documentation',
+  outDir: '../dist/docs',
   base: '/docs/',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
