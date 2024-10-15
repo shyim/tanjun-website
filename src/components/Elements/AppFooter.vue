@@ -40,7 +40,7 @@
                 <a :href="$repoUrl" class="hover:underline">Github</a>
               </li>
               <li>
-                <a href="https://discord.gg/4eeurUVvTy" class="hover:underline"
+                <a href="" class="hover:underline"
                   >Discord</a
                 >
               </li>
