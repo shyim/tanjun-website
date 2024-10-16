@@ -6,6 +6,7 @@
         height="1495"
         class="absolute blur top-0 left-0 translate-x-[-55%] translate-y-[-10%] sm:left-1/2 sm:translate-x-[-98%] sm:translate-y-[-6%] lg:translate-x-[-106%] xl:translate-x-[-145%]"
         style="color: transparent"
+        alt="Blob"
         src="/images/bbblurry.svg"
       />
       <img
@@ -13,6 +14,7 @@
         height="1495"
         class="absolute blur bottom-0 right-0 translate-x-[55%] translate-y-[10%] sm:right-1/2 sm:translate-x-[98%] sm:translate-y-[6%] lg:translate-x-[106%] xl:translate-x-[145%]"
         style="color: transparent"
+        alt="Blob"
         src="/images/bbblurry.svg"
       />
       <div
@@ -84,7 +86,12 @@
           class="w-full absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 flex justify-center opacity-10"
           style="mask-image: radial-gradient(black, transparent 50%)"
         >
-          <img src="/images/grid.svg" draggable="false" class="w-full" />
+          <img
+            src="/images/grid.svg"
+            alt="Grid"
+            draggable="false"
+            class="w-full"
+          />
         </div>
         <Terminal
           :style="terminalStyle"

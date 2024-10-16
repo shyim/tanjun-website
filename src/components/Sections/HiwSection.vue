@@ -30,7 +30,7 @@
           Deployment Made Simple
         </p>
       </div>
-      <div class="grid grid-cols-1 lg:grid-cols-3 gap-2 mt-28">
+      <div class="grid grid-cols-1 lg:grid-cols-3 gap-2 mt-14 sm:mt-28">
         <div
           v-for="(step, index) in steps"
           :key="index"
