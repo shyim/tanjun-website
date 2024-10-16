@@ -124,6 +124,7 @@
                 class="w-full max-lg:max-w-xs"
                 src="/images/platforms.png"
                 alt=""
+                loading="lazy"
               />
             </div>
           </div>
@@ -162,6 +163,7 @@
                 class="h-[min(152px,40cqw)] object-cover object-center"
                 src="/images/service.png"
                 alt=""
+                loading="lazy"
               />
             </div>
           </div>

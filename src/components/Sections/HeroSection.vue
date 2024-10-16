@@ -8,6 +8,7 @@
         style="color: transparent"
         alt="Blob"
         src="/images/bbblurry.svg"
+        loading="lazy"
       />
       <img
         width="918"
@@ -16,6 +17,7 @@
         style="color: transparent"
         alt="Blob"
         src="/images/bbblurry.svg"
+        loading="lazy"
       />
       <div
         class="absolute inset-x-0 top-0 h-40 bg-gradient-to-b from-white"
@@ -65,18 +67,20 @@
           :delay="300"
           :duration="1000"
         >
-          <button
+          <a
             type="button"
             class="inline-flex justify-center font-display items-center space-x-2 rounded-lg px-6 py-3 text-base md:text-lg font-medium bg-accent text-white shadow-lg shadow-violet-500/50 border border-accent button-1"
+            href="/docs/"
           >
             Get Started
-          </button>
-          <button
+          </a>
+          <a
             type="button"
             class="flex text-accent justify-center space-x-2 rounded-lg px-6 py-3 text-base md:text-lg font-medium bg-white border border-gray-100 shadow-lg"
+            href="/docs/"
           >
             Download Now
-          </button>
+          </a>
         </div>
       </div>
       <div
@@ -91,6 +95,7 @@
             alt="Grid"
             draggable="false"
             class="w-full"
+            loading="lazy"
           />
         </div>
         <Terminal

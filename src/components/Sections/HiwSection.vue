@@ -47,6 +47,7 @@
               draggable="false"
               class="w-64 h-64 text-white -mt-24 -mb-12"
               :alt="step.title"
+              loading="lazy"
             />
             <h3 class="text-2xl text-center text-white">
               {{ step.title }}

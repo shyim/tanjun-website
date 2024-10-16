@@ -34,12 +34,13 @@
           </svg>
           <span>{{ starCount }}</span>
         </a>
-        <button
+        <a
           type="button"
           class="text-white bg-accent font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-accent dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+          href="/docs/"
         >
           Get started
-        </button>
+        </a>
         <button
           @click="toggleMenu"
           type="button"
@@ -98,9 +99,7 @@ const isMenuOpen = ref(false)
 
 const navItems = [
   { name: 'Home', link: '#', active: true },
-  { name: 'About', link: '#', active: false },
-  { name: 'Services', link: '#', active: false },
-  { name: 'Contact', link: '#', active: false },
+  { name: 'Docs', link: '/docs/', active: false },
 ]
 
 const toggleMenu = () => {
