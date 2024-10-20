@@ -1,30 +1,29 @@
 import { defineConfig } from 'vitepress'
 
-// https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: 'Tanjun Docs',
   description: 'Tanjun Documentation',
   outDir: '../dist/docs',
   base: '/docs/',
   themeConfig: {
-    // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' },
+      { text: 'Installation', link: '/install' },
     ],
 
     sidebar: [
       {
-        text: 'Examples',
+        text: 'Getting started',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' },
+          { text: 'Installation', link: '/install' },
+          { text: 'Requirements', link: '/requirements' },
+          { text: 'Deploying a Hello World', link: '/deploy-hello-world' },
         ],
       },
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' },
+      { icon: 'github', link: 'https://github.com/shyim/tanjun' },
     ],
   },
 })

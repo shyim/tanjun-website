@@ -3,23 +3,23 @@
 layout: home
 
 hero:
-  name: "Tanjun Docs"
-  text: "Tanjun Documentation"
-  tagline: My great project tagline
+  name: "Tanjun"
+  text: "Documentation"
+  tagline: Dockerized Deployment
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: Install Tanjun
+      link: /install
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: Deploying a Hello World
+      link: /deploy-hello-world
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Zero Downtime Deployments
+    details: Tanjun uses Kamal Deploy to deploy your applications with zero downtime.
+  - title: Buildpack included
+    details: Deploying your Node.js, Go or PHP application with zero configuration.
+  - title: Convinient CLI
+    details: View logs, enter containers and forward to local ports without connecting to the VPS with SSH
 ---
 
