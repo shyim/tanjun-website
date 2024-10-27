@@ -9,10 +9,10 @@ hero:
   actions:
     - theme: brand
       text: Install Tanjun
-      link: /install
+      link: /getting-started/install
     - theme: alt
       text: Deploying a Hello World
-      link: /deploy-hello-world
+      link: /getting-started/deploy-hello-world
 
 features:
   - title: Zero Downtime Deployments

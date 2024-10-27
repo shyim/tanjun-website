@@ -70,14 +70,14 @@
           <a
             type="button"
             class="inline-flex justify-center font-display items-center space-x-2 rounded-lg px-6 py-3 text-base md:text-lg font-medium bg-accent text-white shadow-lg shadow-violet-500/50 border border-accent button-1"
-            href="/docs/deploy-hello-world.html"
+            href="/docs/getting-started/deploy-hello-world.html"
           >
             Get Started
           </a>
           <a
             type="button"
             class="flex text-accent justify-center space-x-2 rounded-lg px-6 py-3 text-base md:text-lg font-medium bg-white border border-gray-100 shadow-lg"
-            href="/docs/install.html"
+            href="/docs/getting-started/install"
           >
             Download Now
           </a>
