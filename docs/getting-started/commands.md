@@ -56,3 +56,19 @@ This shows all running services on the server.
 ## tanjun service rm [name]
 
 This allows to remove a service from the server. Services are not automatically removed, you have to do it manually to prevent data lost.
+
+## tanjun cronjob ls
+
+This shows all cronjobs of the project and when the next execution is
+
+## tanjun cronjob history [name]
+
+This shows the history of a cronjob executions and if they failed.
+
+## tanjun cronjob logs [id]
+
+This shows the logs of a cronjob execution. The ID can be found in the history command.
+
+## tanjun cronjob run [name]
+
+This runs a specified cronjob manually.
